@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HolaMundo.Views.HomePage"
+             BackgroundColor="#127ac7">
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" >
+            <StackLayout Orientation="Vertical"
+                         VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Label Text="Welcome to Xamarin"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center" 
+                       
+                />
+
+                <Label Text="Cross-platforms apps made easy"
+                       TextColor="White"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+               />
+
+
+                <Button Text="Login"
+                        TextColor="White"
+                        FontSize="Medium"
+                        BackgroundColor="#1dabf0"
+                        HorizontalOptions="Fill"
+                        
+                />
+                
+                <StackLayout Orientation="Horizontal"></StackLayout>
+
+                <Button Text="Resgister"
+                            TextColor="White"
+                            FontSize="Medium"
+                            BackgroundColor="#1dabf0"
+                            HorizontalOptions="Fill"
+                />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

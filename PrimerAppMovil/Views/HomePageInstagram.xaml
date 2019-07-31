@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PrimerAppMovil.Views.HomePageInstagram">
+    <StackLayout Orientation="Vertical" Padding="14">
+        <StackLayout>
+            <Label Text="@willintongl" TextColor="Gray" FontAttributes="Bold"/>
+            <Label Text="Medellín, Colombia" FontSize="Micro" FontAttributes="Bold"/>
+        </StackLayout>
+        <Image Source="IG.jpg"/>
+        <StackLayout Orientation="Horizontal" Padding="8">
+            <Button Text ="Like ❤" TextColor="#1dabf0"/>
+            <Button Text ="  Comment✉ " TextColor="#1dabf0"/>
+            <Button Text ="Share" TextColor="#1dabf0"/>
+        </StackLayout>
+        <StackLayout>
+            <BoxView Color="DarkGray" HeightRequest="1"  />
+            <Label Text="700 likes" FontSize="Medium" TextColor="Black"/>
+            <StackLayout Orientation="Horizontal">
+            <Label Text="@willintongl" TextColor="Black"/> 
+            <Label Text="Mi primer vista de Instagram" TextColor="Gray"/>
+            </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
